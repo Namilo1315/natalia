@@ -80,16 +80,15 @@
             
         }
         
-        #inicio .contenido header .contenido-header .redes a {
-           
-            color: black;
+        .redes a {
+            
             display: inline-block;
             margin-left: 10px;
             transition: .5s;
             font-weight: 1000;
         }
         
-        #inicio .contenido header .contenido-header .redes a:hover {
+        .redes a:hover {
             color:#ff5080;
             font-weight: 600;
             transform: scale(1.5, 1.5);
@@ -280,7 +279,7 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background-color: #ff507fe7;
+            background-color: #ff507fd6;
             padding: 20px;
             margin-bottom: 25px;
         }
@@ -548,18 +547,24 @@
             background-color: #000000;
             color: #fff;
             text-align: center;
-            padding: 10px 0;
+            padding: 5px 0;
         }
         
         footer a {
             text-decoration: none;
-            color: #fff;
+            color: #000000;
             display: inline-block;
             margin: 5px;
-            
+            font-size: 26px;
         }
-        .redesfotter{
-            width: 50px;
+        footer a:hover {
+            color: #000000;
+            font-weight: 600;
+            transform: scale(1.5, 1.5);
+         }
+        .derechos{
+            font-size: small;
+            font-weight: 500;
         }
        
         /* *********************/
@@ -651,6 +656,7 @@
             #contacto .contenedor-form .mitad input {
                 width: 100%;
                 margin-bottom: 15px;
+                margin-top: 6px;
                 
             }
         }
