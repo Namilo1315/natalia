@@ -43,7 +43,7 @@
             background-color: rgba(0, 0, 0, .8);
             position: fixed;
             width: 100%;
-            z-index: 100;
+            z-index: 1;
             top: 0;
         }
         
@@ -162,7 +162,7 @@
         #sobremi {
             max-width: 1100px;
             margin: auto;
-            padding: 100px 15px;
+            padding: 40px 15px;
             color: #111135;
             display: flex;
         }
@@ -173,15 +173,15 @@
         }
         
         #sobremi .contenedor-foto img {
-            margin-top: 20px;
+            margin-top: 0px;
             padding: 20px;
-            width: 140%;
+            width: 150%;
             border-radius: 20px;
             background-color: #f3f3f3;
         }
         
         #sobremi .sobremi {
-            margin: 0 40px;
+            margin: 0 50px;
         }
         
         #sobremi .sobremi .titulo-seccion {
@@ -225,8 +225,8 @@
             color: #000;
             border-radius: 30px;
             border: 1px solid #000;
-            padding: 10px 20px;
-            margin-top: 30px;
+            padding: 10px 12px;
+            margin-top: 10px;
             transition: .5s;
         }
         
@@ -241,7 +241,7 @@
         #servicios {
             padding: 40px 15px;
             text-align: center;
-            background-color: #f3f3f3;
+            background-color: #ffffff;
         }
         
         #servicios .titulo-seccion {
@@ -256,34 +256,37 @@
         
         #servicios .fila {
             display: flex;
-            justify-content: space-between;
-            max-width: 1100px;
-            margin: 30px auto;
+            text-align: center;
+            justify-content: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 15px;
+            
         }
-        
-        #servicios .fila .servicio {
-            max-width: 300px;
-            background-color: #fff;
-            padding: 20px;
-            margin: 0 5px;
-            border-radius: 5px;
-            transition: .5s;
-        }
-        
-        #servicios .fila .servicio:hover {
-            box-shadow: 5px 5px 10px  #ff5080, -5px -5px 10px #6c6c6c;
-        }
+       
+    
         
         #servicios .fila .servicio .icono {
             display: inline-block;
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background-color: #ff507fd6;
+            background-color: #ecececd6;
             padding: 20px;
             margin-bottom: 25px;
         }
         
+        #servicios .fila .servicio .icono:hover {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color:  #ff5080;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+
         #servicios .fila .servicio h4 {
             font-size: 22px;
             margin-bottom: 25px;
@@ -318,13 +321,13 @@
             background-size: cover;
             color: #fff;
             background-position: center center;
-            padding: 40px 0;
+            padding: 40px 10px;
             text-align: center;
         }
         
         .contenedor-skills .skill {
             max-width: 800px;
-            margin: 30px auto;
+            margin: 10px auto;
         }
         
         .contenedor-skills .skill .info {
@@ -416,7 +419,7 @@
         
         #portfolio {
             max-width: 1100px;
-            padding: 100px 0;
+            padding: 40px 15px;
             margin: auto;
         }
         
@@ -547,7 +550,9 @@
             background-color: #000000;
             color: #fff;
             text-align: center;
-            padding: 5px 0;
+            padding: 3px 15px;
+            margin-top: 0;
+            
         }
         
         footer a {
