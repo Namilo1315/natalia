@@ -79,16 +79,7 @@
             color: #ff5080;
             
         }
-        .typing-text {
-            overflow: hidden; /* Para esconder el texto mientras se va escribiendo */
-            white-space: nowrap; /* Para evitar el salto de línea */
-            font-size: 1.5em;
-            animation: typing 2s steps(10, end);
-            font-size: 16px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 5px;
-        }
+       
 
         @keyframes typing {
             from {
@@ -138,6 +129,25 @@
             margin-bottom: 20px;
             text-transform: uppercase;
             letter-spacing: 5px;
+            overflow: hidden; /* Para esconder el texto mientras se va escribiendo */
+            white-space: nowrap; /* Para evitar el salto de línea */
+            
+        
+            animation: typing 3s steps(30, end);
+        }
+        @keyframes .bienvenida {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .typing-text {
+                font-size: 1.2em;
+            }
         }
         
         #inicio .contenido .presentacion h2 {
@@ -288,9 +298,7 @@
             
         }
        
-        
-
-        
+    
         #servicios .fila .servicio .icono {
             display: inline-block;
             width: 60px;
