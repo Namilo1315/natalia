@@ -17,16 +17,18 @@
             bottom: 20px;
             right: 20px;
         }
-        
+
+       
         #whatsapp-button a img {
-            width: 60px; /* Ajusta el tamaño según tu preferencia */
-            border-radius: 50%;
+            width: 55px; /* Ajusta el tamaño según tu preferencia */
+            border-radius: 40%;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
             background-color:  #ff5080;  /* Color de WhatsApp */
-            padding: 10px;
-            transform: scale(.8, 1);
+            padding: 8px;
+            
         }
-        
+      
+    
         #whatsapp-button a img:hover {
             background-color:#2df458;/* Cambia el color al pasar el mouse */
             opacity: 1;
@@ -71,7 +73,7 @@
             text-decoration: none;
             color: #fff;
             margin: 0 12px;
-            font-weight: 400;
+            font-weight: 600;
             transition: .5s;
         }
         
@@ -196,7 +198,7 @@
         #sobremi {
             max-width: 1100px;
             margin: auto;
-            padding: 40px 15px;
+            padding: 70px 15px;
             color: #111135;
             display: flex;
         }
@@ -207,7 +209,7 @@
         }
         
         #sobremi .contenedor-foto img {
-            margin-top: 10px;
+            margin-top: 25px;
             padding: 20px;
             width: 150%;
             border-radius: 20px;
@@ -223,8 +225,9 @@
             text-transform: uppercase;
             color: #111135;
             text-decoration: underline;
-            text-decoration-color: #d3d3d3;
+            text-decoration-color: #f76c91;
             text-decoration-thickness: 5px;
+            font-weight: 700;
         }
         
         #sobremi .sobremi h2 {
@@ -249,7 +252,7 @@
         #sobremi .sobremi p {
             font-size: 14px;
             line-height: 25px;
-            color: #565656;
+            color: #282828;
             margin-bottom: 12px;
         }
         
@@ -273,7 +276,7 @@
         /* *********************/
         
         #servicios {
-            padding: 40px 15px;
+            padding: 70px 15px;
             text-align: center;
             background-color: #ffffff;
         }
@@ -284,8 +287,9 @@
             text-transform: uppercase;
             color: #111135;
             text-decoration: underline;
-            text-decoration-color: #d3d3d3;
+            text-decoration-color: #f76c91;
             text-decoration-thickness: 5px;
+            font-weight: 700;
         }
         
         #servicios .fila {
@@ -455,7 +459,7 @@
         
         #portfolio {
             max-width: 1100px;
-            padding: 40px 15px;
+            padding: 70px 15px;
             margin: auto;
         }
         
@@ -465,8 +469,9 @@
             text-transform: uppercase;
             color: #111135;
             text-decoration: underline;
-            text-decoration-color: #d3d3d3;
+            text-decoration-color: #f76c91;
             text-decoration-thickness: 5px;
+            font-weight: 700;
         }
         
         #portfolio .fila {
@@ -516,7 +521,7 @@
         /* *********************/
         
         #contacto {
-            padding: 40px 15px;
+            padding: 30px 15px;
             background-color: #f3f3f3;
         }
         
@@ -561,8 +566,9 @@
             text-transform: uppercase;
             color: #010101;
             text-decoration: underline;
-            text-decoration-color: #d3d3d3;
+           text-decoration-color: #f76c91;
             text-decoration-thickness: 5px;
+            font-weight: 700;
         }
         
         #contacto .btn-enviar {
@@ -649,17 +655,24 @@
                 max-width: 200px;
                 margin: auto;
             }
+           
             #sobremi .contenedor-foto img {
-                width: 100%;
+                margin-top: 8px;
                 padding: 8px;
+                width: 120%;
+                border-radius: 10px;
+                background-color: #f3f3f3;
             }
+           
             #sobremi .sobremi .titulo-seccion {
-                text-align: center;
-                margin-top: 10px;
+               display: none;
             }
             #sobremi .sobremi h2 {
                 font-size: 25px;
                 
+            }
+            .desarrollado{
+                text-align: center;
             }
             /* seccion MIS SERVICIOS */
             #servicios {
