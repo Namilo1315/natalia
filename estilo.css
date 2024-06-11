@@ -127,15 +127,15 @@
         }
         
         #inicio .contenido .presentacion .bienvenida {
-            font-size: 16px;
+            font-size: 20px;
             margin-bottom: 20px;
             text-transform: uppercase;
-            letter-spacing: 5px;
+            letter-spacing: 10px;
             overflow: hidden; /* Para esconder el texto mientras se va escribiendo */
             white-space: nowrap; /* Para evitar el salto de línea */
             
         
-            animation: typing 3s steps(30, end);
+            animation: typing 7s steps(30, end);
         }
         @keyframes .bienvenida {
             from {
@@ -308,7 +308,7 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background-color: #ecececd6;
+            background-color: #e3e3e3d6;
             padding: 20px;
            transition: .5s;
 
